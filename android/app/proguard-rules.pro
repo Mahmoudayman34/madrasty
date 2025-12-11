@@ -9,6 +9,9 @@
 -keep class io.flutter.view.**  { *; }
 -keep class io.flutter.**  { *; }
 -keep class io.flutter.plugins.**  { *; }
+-keep class com.google.android.gms.** { *; }
+-keep class dev.fluttercommunity.flutter_font_manager.** { *; }
+-keep class io.flutter.plugins.googlefonts.** { *; }
 
 # Keep native methods
 -keepclasseswithmembernames class * {
