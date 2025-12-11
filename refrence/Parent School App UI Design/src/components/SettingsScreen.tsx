@@ -169,7 +169,7 @@ export default function SettingsScreen({ onNavigate }: Props) {
         {/* App Info */}
         <div className="bg-white rounded-2xl p-5 shadow-sm mb-4">
           <div className="text-center">
-            <p className="text-gray-500 text-sm mb-1">تطبيق مدرستي</p>
+            <p className="text-gray-500 text-sm mb-1">تطبيق مدارس شعلة النور</p>
             <p className="text-gray-400 text-xs">الإصدار 1.0.0</p>
           </div>
         </div>

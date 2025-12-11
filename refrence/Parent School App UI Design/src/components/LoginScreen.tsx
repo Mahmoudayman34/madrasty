@@ -24,7 +24,7 @@ export default function LoginScreen({ onNavigate }: Props) {
         <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mb-4 shadow-lg">
           <GraduationCap className="w-16 h-16 text-[#1976D2]" />
         </div>
-        <h1 className="text-white text-3xl mb-1">مدرستي</h1>
+        <h1 className="text-white text-3xl mb-1">مدارس شعلة النور</h1>
         <p className="text-[#BBDEFB]">تطبيق أولياء الأمور</p>
       </div>
 

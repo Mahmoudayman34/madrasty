@@ -53,21 +53,14 @@ class _SplashScreenState extends State<SplashScreen>
                       width: 130,
                       height: 130,
                       decoration: BoxDecoration(
-                        color: AppTheme.white,
+                        color: Colors.transparent,
                         shape: BoxShape.circle,
-                        boxShadow: [
-                          BoxShadow(
-                            color: Colors.black.withOpacity(0.2),
-                            blurRadius: 20,
-                            spreadRadius: 5,
-                          ),
-                        ],
+                       
                       ),
                       child: Image.asset(
                         'assets/icons/logo-madrasty.png',
-                        width: 60,
-                        height: 60,
-                        color: AppTheme.primaryBlue,
+                        width: 70,
+                        height: 70,
                        
                       ),
                     ),
@@ -76,9 +69,9 @@ class _SplashScreenState extends State<SplashScreen>
               ),
               const SizedBox(height: 32),
               Text(
-                'مدرستي',
+                'مدارس شعلة النور',
                 style: AppTheme.tajawal(
-                  fontSize: 40,
+                  fontSize: 30,
                   fontWeight: FontWeight.bold,
                   color: AppTheme.white,
                 ),

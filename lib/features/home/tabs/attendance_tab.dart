@@ -367,7 +367,7 @@ class AttendanceTab extends StatelessWidget {
                             SnackBar(
                               content: Row(
                                 children: [
-                                  const Icon(Icons.check_circle, color: AppTheme.white),
+                                  const Icon(Icons.check_circle_outline, color: AppTheme.white),
                                   const SizedBox(width: 12),
                                   Expanded(
                                     child: Text(

@@ -84,14 +84,14 @@ class AboutAppScreen extends StatelessWidget {
                       child: Center(
                         child: Image.asset(
                           'assets/icons/logo-madrasty.png',
-                          width: 50,
-                          height: 50,
+                          width: 80,
+                          height: 80,
                         ),
                       ),
                     ),
                     const SizedBox(height: 16),
                     Text(
-                      'مدرستي',
+                      'مدارس شعلة النور',
                       style: AppTheme.tajawal(
                         fontSize: 24,
                         fontWeight: FontWeight.bold,
@@ -193,7 +193,7 @@ class AboutAppScreen extends StatelessWidget {
                     ),
                     const SizedBox(height: 12),
                     Text(
-                      'تطبيق "مدرستي" هو تطبيق متكامل لأولياء الأمور لمتابعة أداء أبنائهم الدراسي. يتيح التطبيق متابعة الحضور والغياب، الاطلاع على الجدول الدراسي، استلام الرسائل من المدرسة والمعلمين، ومتابعة الدرجات والشهادات.',
+                      'تطبيق "مدارس شعلة النور" هو تطبيق متكامل لأولياء الأمور لمتابعة أداء أبنائهم الدراسي. يتيح التطبيق متابعة الحضور والغياب، الاطلاع على الجدول الدراسي، استلام الرسائل من المدرسة والمعلمين، ومتابعة الدرجات والشهادات.',
                       style: AppTheme.tajawal(
                         fontSize: 14,
                         color: AppTheme.gray700,

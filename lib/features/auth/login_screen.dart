@@ -120,25 +120,25 @@ class _LoginScreenState extends State<LoginScreen> {
                   children: [
                     // Graduation cap icon in white circle
                     Container(
-                      width: 80,
-                      height: 80,
+                      width: 100,
+                      height: 100,
                       decoration: const BoxDecoration(
-                        color: Colors.white,
+                        color: Colors.transparent,
                         shape: BoxShape.circle,
                       ),
                       child: Image.asset(
                         'assets/icons/logo-madrasty.png',
-                        width: 50,
-                        height: 50,
-                        color: AppTheme.primaryBlue,
+                        width: 90,
+                        height: 90,
+                        
                       ),
                     ),
-                    const SizedBox(height: 20),
+                    const SizedBox(height: 10),
                     // App Name
                     Text(
-                      'مدرستي',
+                      'مدارس شعلة النور',
                       style: AppTheme.tajawal(
-                        fontSize: 32,
+                        fontSize: 28,
                         fontWeight: FontWeight.bold,
                         color: AppTheme.white,
                       ),

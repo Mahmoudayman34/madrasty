@@ -1,0 +1,8 @@
+# This is an example file. Copy this to key.properties and fill in your actual values.
+# DO NOT commit key.properties to version control!
+
+storePassword=1qaz
+keyPassword=your_key_password_here
+keyAlias=upload
+storeFile=../upload-keystore.jks
+

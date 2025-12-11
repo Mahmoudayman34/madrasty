@@ -9,7 +9,7 @@ export default function SplashScreen() {
         </div>
       </div>
       
-      <h1 className="text-white text-4xl mb-2">مدرستي</h1>
+      <h1 className="text-white text-4xl mb-2">مدارس شعلة النور</h1>
       <p className="text-[#BBDEFB] text-xl">تطبيق أولياء الأمور</p>
       
       <div className="mt-16">

@@ -1,5 +1,5 @@
 name: madrasty
-description: "A new Flutter project."
+description: "مدارس شعلة النور - تطبيق إدارة المدارس"
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
 version: 1.0.0+1
@@ -29,7 +29,7 @@ flutter_icons:
   android: true
   ios: true
   image_path: "assets/icons/logo.png"
-  adaptive_icon_background: "#ffffff"
+  adaptive_icon_background: "#003688"
   adaptive_icon_foreground: "assets/icons/logo_trans.png"
 
 flutter:
